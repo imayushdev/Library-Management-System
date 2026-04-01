@@ -1,0 +1,74 @@
+# ── Compiled Java Classes ──────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ── Build Output Directories ────────────────────────
+bin/
+build/
+out/
+target/
+
+# ── IDE Files ───────────────────────────────────────
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+*.launch
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+nb-configuration.xml
+
+# ── OS Generated Files ──────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ── Logs & Temp Files ───────────────────────────────
+*.log
+*.tmp
+*.temp
+*.swp
+
+# ── Package Managers ────────────────────────────────
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# ── Environment & Secrets ───────────────────────────
+.env
+*.env
+secrets.properties
